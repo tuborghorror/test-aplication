@@ -1,0 +1,6 @@
+[submodule "websocket-back"]
+	path = websocket-back
+	url = git@github.com:tuborghorror/websocket-back.git
+[submodule "websocket-front"]
+	path = websocket-front
+	url = git@github.com:tuborghorror/websocket-front.git
