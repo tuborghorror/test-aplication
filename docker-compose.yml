@@ -3,14 +3,14 @@ services:
   front:
     build:
       context: ./websocket-front
-    container_name: app
+    container_name: front
     restart: unless-stopped
     ports:
       - "4200:4200"
   server:
     build:
       context: ./websocket-back
-    container_name: app
+    container_name: backend
     restart: unless-stopped
     ports:
       - "3000:3000"
